@@ -9,7 +9,7 @@ class TestController extends BaseController {
      * @return [type] [description]
      */
     public function test(){
-        var_dump(123);
+        var_dump(456);
     }
 
     public function insert_test(){
