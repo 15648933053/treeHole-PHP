@@ -221,4 +221,28 @@
 			       }	
 			
 			}
+			
+			
+数据库建表语句：
+	create database treehole;
+	use treehole;
+
+	create table user(
+		id int(11) primary key auto_increment not null,
+		username varchar(50) not null,
+		phone varchar(11) not null unique,
+		password varchar(32) not null,
+		face_url VARCHAR(250) not null
+	);
+
+	create table message(
+		id int(11) not null primary key auto_increment,
+		user_id int(11) not null,
+		username varchar(50) not null,
+		face_url varchar(250) not null,
+		content varchar(500) not null default 0,
+		totle_likes int(11) not null,
+		send_timestamp int(11) not null,
+		foreign key(user_id) references user(id)
+	);
 
