@@ -131,7 +131,8 @@ class UserController extends BaseController {
 
         if ($user){
             //如果查询到用户
-            dump($user);
+            dump(md5($_POST['password']));
+            dump($user['password']);
             if (md5($_POST['password']) != $user['password']){
                 $return_data = array();
                 $return_data['error_code'] = 3;
@@ -144,7 +145,7 @@ class UserController extends BaseController {
                 $return_data['msg'] = '登录成功';
                 $return_data['data']['user_id'] = $user['id'];
                 $return_data['data']['usename'] = $user['username'];
-                $return_data['data'][phone] = $user['phone'];
+                $return_data['data']['phone'] = $user['phone'];
                 $return_data['data']['face_url'] = $user['face_url'];
 
                 $this->ajaxReturn($return_data);

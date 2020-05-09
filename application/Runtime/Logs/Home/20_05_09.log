@@ -1,0 +1,120 @@
+[ 2020-05-09T10:52:01+08:00 ] 127.0.0.1 /public/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+NOTIC: [8] Undefined index: phone I:\treehole\treeHole-PHP\application\Home\Controller\UserController.class.php 第 106 行.
+
+[ 2020-05-09T10:52:13+08:00 ] 127.0.0.1 /public/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15648933051' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2020-05-09T10:52:56+08:00 ] 127.0.0.1 /public/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15648933051' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2020-05-09T10:54:27+08:00 ] 127.0.0.1 /public/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15648933051' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2020-05-09T10:55:10+08:00 ] 127.0.0.1 /public/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15648933051' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2020-05-09T10:56:07+08:00 ] 127.0.0.1 /public/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15648933051' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2020-05-09T10:56:36+08:00 ] 127.0.0.1 /public/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15648933051' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2020-05-09T10:57:24+08:00 ] 127.0.0.1 /public/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15648933058' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2020-05-09T10:57:35+08:00 ] 127.0.0.1 /public/index.php/Home/User/sign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15648933058' LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`password`,`face_url`) VALUES ('姚云峰','15648933058','520f22d21481f89ba5a2f642deb7db10','xxx.jpg') [ RunTime:0.1046s ]
+
+[ 2020-05-09T10:58:33+08:00 ] 127.0.0.1 /public/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15648933058' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2020-05-09T10:58:35+08:00 ] 127.0.0.1 /public/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15648933058' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2020-05-09T10:58:36+08:00 ] 127.0.0.1 /public/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15648933058' LIMIT 1   [ RunTime:0.0004s ]
+
