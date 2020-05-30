@@ -141,18 +141,18 @@ class MessageController extends BaseController{
      */
     public function do_like(){
         //校验参数
-        if (!$_POST['message_id']){
-            $return_data = array();
-            $return_data['error_code'] = 1;
-            $return_data['msg'] = '参数不足：message_id';
-
-            $this->ajaxReturn($return_data);
-        }
-
         if (!$_POST['user_id']){
             $return_data = array();
             $return_data['error_code'] = 1;
             $return_data['msg'] = '参数不足：user_id';
+
+            $this->ajaxReturn($return_data);
+        }
+
+        if (!$_POST['message_id']){
+            $return_data = array();
+            $return_data['error_code'] = 1;
+            $return_data['msg'] = '参数不足：message_id';
 
             $this->ajaxReturn($return_data);
         }

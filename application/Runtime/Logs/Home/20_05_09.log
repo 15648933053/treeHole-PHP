@@ -118,3 +118,13 @@ INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
 SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
 SQL: SELECT * FROM `user` WHERE `phone` = '15648933058' LIMIT 1   [ RunTime:0.0004s ]
 
+[ 2020-05-09T11:40:43+08:00 ] 127.0.0.1 /public/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `user` WHERE `phone` = '15648933053' LIMIT 1   [ RunTime:0.0005s ]
+

@@ -1,15 +1,16 @@
 <?php
+
 namespace Home\Controller;
 
 use Think\Controller;
 class UserController extends BaseController {
-	
+
     /**
      * 用户注册
      * @return [type] [description]
      */
     public function sign(){
-        //校验参数是否存在
+        //校验参数是idea否存在
         if(!$_POST['username']){
             $return_data = array();
             $return_data['error_code'] = 1;
@@ -131,8 +132,6 @@ class UserController extends BaseController {
 
         if ($user){
             //如果查询到用户
-            dump(md5($_POST['password']));
-            dump($user['password']);
             if (md5($_POST['password']) != $user['password']){
                 $return_data = array();
                 $return_data['error_code'] = 3;
@@ -143,10 +142,10 @@ class UserController extends BaseController {
                 $return_data = array();
                 $return_data['error_code'] = 0;
                 $return_data['msg'] = '登录成功';
-                $return_data['data']['user_id'] = $user['id'];
-                $return_data['data']['usename'] = $user['username'];
-                $return_data['data']['phone'] = $user['phone'];
-                $return_data['data']['face_url'] = $user['face_url'];
+                $return_data['dataValue']['user_id'] = $user['id'];
+                $return_data['dataValue']['usename'] = $user['username'];
+                $return_data['dataValue']['phone'] = $user['phone'];
+                $return_data['dataValue']['face_url'] = $user['face_url'];
 
                 $this->ajaxReturn($return_data);
             }
@@ -157,9 +156,6 @@ class UserController extends BaseController {
             $this->ajaxReturn($return_data);
         }
 
-
-
     }
 
 }
-
